@@ -1,0 +1,38 @@
+{
+  "name": "blank-theme",
+  "version": "1.0.0",
+  "description": "A blank theme for starting a Wordpress Project",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --prod",
+    "prettier": "prettier"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "@prettier/plugin-php": "^0.15.2",
+    "autoprefixer": "^10.0.1",
+    "babel-loader": "^8.1.0",
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss-pxtorem": "^5.1.1",
+    "prettier": "^2.1.2",
+    "vinyl-named": "^1.1.0",
+    "webpack-stream": "^6.1.0",
+    "yargs": "^16.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}
